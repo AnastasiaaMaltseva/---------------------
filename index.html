@@ -4,72 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="static/styles/index.css" />
+    <link rel="stylesheet" href="static/styles/media.css">
   </head>
   <body>
-    <div class="container">
       <div class="tab">
         <input checked id="tablinks-1" name="tablinks" type="radio" value="" />
-        <label for="tablinks-1">Home</label>
+        <label for="tablinks-1">Главная</label>
         <input id="tablinks-2" name="tablinks" type="radio" value="" />
-        <label for="tablinks-2">About</label>
+        <label for="tablinks-2">Обо мне</label>
         <input id="tablinks-3" name="tablinks" type="radio" value="" />
-        <label for="tablinks-3">Portfolio</label>
-        <div id="Home" class="tabcontent">
-          <div class="welcome">
-            <div class="text_board">
-              <p class="text">Hello World I'm</p>
-              <h1 class="title">Anastasia Maltseva</h1>
-              <p class="sabtitle">Web Developer</p>
-              <p class="text">Welcome to my personal Webside</p>
-            </div>
-            <div>
-              <img class="img_avatar" src="src/Avatar.jpg" />
+        <label for="tablinks-3">Портфолио</label>
+
+        <div id="Home" class="tabcontent" class="Home">
+          <div class="container">
+            <div class="welcome">
+              <div class="welcome_board">
+                <p class="text">Меня зовут</p>
+                <h1 class="title">Мальцева Анастасия</h1>
+                <p class="sabtitle">Я начинающий веб-разравотчик</p>
+                <p class="text">Добро пожаловать на мой персональный веб-сайт</p>
+              </div>
+              <div>
+                <img class="avatar avatar_secondary" src="static/images/Avatar.jpg" />
+              </div>
             </div>
           </div>
         </div>
 
-        <div id="About" class="tabcontent">
-          <div class="biography">
-            <div>
-              <img class="img_avatar" src="src/Avatar.jpg" />
+        <div id="About" class="tabcontent" class="About">
+          <div class="conteiner">
+            <div class="biography">
+              <div>
+                <img class="avatar" src="static/images/Avatar.jpg" />
+              </div>
+              <div class="biography_board">
+                <p class="text">
+                  Здравствуйте! Меня зовут Мальцева Анастасия и я начинающий веб-разроботчик. Сейчас я учусь в российском колледже. Front-end я изучаю меньше года, но уже могу похвастаться кое-какими успехами. Мне нравится развиваться в этой сфере. Я не собираюсь заканчивать обучение веб-разработке, наоборот, хочу с каждым днем повышать свой скилл.
+                </p>
+                <h1 class="title title_secondary">Связь со мной</h1>
+                <div class="contacts">
+                  <a href="https://github.com/AnastasiaaMaltseva" target="_blank">
+                    <img src="static/images/github.png" alt="">
+                  </a>
+                  <a href="" target="_blank">
+                    <img src="static/images/telegram.png" alt="">
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="text_board">
-              <p class="text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea
-                rerum veniam id, veritatis praesentium dolor autem. Perferendis,
-                fugit quis harum aperiam consectetur ex nihil nobis? Adipisci,
-                esse provident! Illo, optio? Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. A itaque, assumenda accusantium
-                eius esse quam amet et expedita sapiente aliquam exercitationem
-                ut, repellat corrupti architecto debitis? Delectus perspiciatis
-                nisi iusto? Lorem, ipsum dolor sit amet consectetur adipisicing
-                elit. Porro, ut? Consequuntur cupiditate in deserunt sapiente ea
-                non, ratione fugiat ducimus veritatis. Doloremque iure libero
-                deserunt autem nemo molestiae ipsa labore.
-              </p>
+  
+            <div class="skills-title">
+              <h1 class="title">Мои навыки</h1>
             </div>
-          </div>
-
-          <h1 class="title">skills</h1>
-
-          <div class="skills">
-            <div>
-              <img src="">
-              <p>HTML</p>
-            </div>
-            <div>
-              <img src="">
-              <p>CSS</p>
-            </div>
-            <div>
-              <img src="">
-              <p>JavaScript</p>
+  
+            <div class="skills">
+              <div>
+                <img class="items" src="static/images/HTML.png" />
+                <p class="text">HTML</p>
+              </div>
+              <div>
+                <img class="items" src="static/images/CSS.png" />
+                <p class="text">CSS</p>
+              </div>
+              <div>
+                <img class="items" src="static/images/Js.png" />
+                <p class="text">JavaScript</p>
+              </div>
+              <div>
+                <img class="items" src="static/images/Figma.png" />
+                <p class="text">Figma</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div id="Portfolio" class="tabcontent"></div>
+        <div id="Portfolio" class="tabcontent" class="Portfolio">
+          <div class="container">
+            <div class="text-portfolio">
+              <h1 class="title title_secondary">Мои последние работы</h1>
+            </div>
+            <div class="board-card">
+              <div class="card">
+                <img src="static/images/Personal website.PNG">
+                <h1 class="title title_secondary">Персональный веб-сайт</h1>
+                <p class="text text_secondary">Мой персональный веб-сайт, созданный для того, чтобы я могла продемонстрировать свои работы и навыки.</p>
+              <div class="card">
+                <img src="">
+                <h1 class="title title_secondary">Personal Webside</h1>
+                <p class="text text_secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eius possimus architecto a qui dolore consectetur velit maiores delectus, debitis, laboriosam dolorem fugit.</p>
+              </div>
+              <div class="card">
+                <img src="">
+                <h1 class="title title_secondary">Personal Webside</h1>
+                <p class="text text_secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eius possimus architecto a qui dolore consectetur velit maiores delectus, debitis, laboriosam dolorem fugit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </body>

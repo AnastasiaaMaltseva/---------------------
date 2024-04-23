@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+  .avatar_secondary {
+    box-shadow: 0px 0px 20px 20px rgba(179, 159, 70, 0.418);
+  }
+
+  .biography {
+    margin: 50px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+
+  .biography_board {
+    width: 100%;
+  }
+
+  .avatar {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .skills {
+    justify-content: space-between;
+  }
+
+  .skills-title {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .sabtitle {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .board-card{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .card{
+    display: inline-block;
+  }
+  
+  .title_secondary{
+    font-size: 22px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .avatar_secondary {
+    height: 150px;
+    max-width: 150px;
+    box-shadow: 0px 0px 20px 20px rgba(179, 159, 70, 0.418);
+  }
+
+  .welcome {
+    display: block;
+    text-align: center;
+  }
+
+  .welcome_board {
+    margin: 20px 0px;
+  }
+
+  .skills {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .skills > div {
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 100px;
+  }
+}
