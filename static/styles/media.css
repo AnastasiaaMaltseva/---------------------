@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .avatar_secondary {
-    box-shadow: 0px 0px 20px 20px rgba(179, 159, 70, 0.418);
+    box-shadow: 0px 0px 20px 20px rgba(179, 70, 70, 0.418);
   }
 
   .biography {
@@ -55,7 +55,7 @@
   .avatar_secondary {
     height: 150px;
     max-width: 150px;
-    box-shadow: 0px 0px 20px 20px rgba(179, 159, 70, 0.418);
+    box-shadow: 0px 0px 20px 20px rgba(179, 70, 70, 0.418);
   }
 
   .welcome {

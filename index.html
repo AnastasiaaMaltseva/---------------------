@@ -5,104 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="static/styles/index.css" />
-    <link rel="stylesheet" href="static/styles/media.css">
+    <link rel="stylesheet" href="static/styles/media.css" />
   </head>
   <body>
-      <div class="tab">
-        <input checked id="tablinks-1" name="tablinks" type="radio" value="" />
-        <label for="tablinks-1">Главная</label>
-        <input id="tablinks-2" name="tablinks" type="radio" value="" />
-        <label for="tablinks-2">Обо мне</label>
-        <input id="tablinks-3" name="tablinks" type="radio" value="" />
-        <label for="tablinks-3">Портфолио</label>
+    <div class="tab">
+      <input checked id="tablinks-1" name="tablinks" type="radio" value="" />
+      <label for="tablinks-1">Главная</label>
+      <input id="tablinks-2" name="tablinks" type="radio" value="" />
+      <label for="tablinks-2">Обо мне</label>
+      <input id="tablinks-3" name="tablinks" type="radio" value="" />
+      <label for="tablinks-3">Портфолио</label>
 
-        <div id="Home" class="tabcontent" class="Home">
-          <div class="container">
-            <div class="welcome">
-              <div class="welcome_board">
-                <p class="text">Меня зовут</p>
-                <h1 class="title">Мальцева Анастасия</h1>
-                <p class="sabtitle">Я начинающий веб-разравотчик</p>
-                <p class="text">Добро пожаловать на мой персональный веб-сайт</p>
-              </div>
-              <div>
-                <img class="avatar avatar_secondary" src="static/images/Avatar.jpg" />
-              </div>
+      <div id="Home" class="tabcontent" class="Home">
+        <div class="container">
+          <div class="welcome">
+            <div class="welcome_board">
+              <p class="text">Меня зовут</p>
+              <h1 class="title">Мальцева Анастасия</h1>
+              <p class="sabtitle">Я начинающий веб-разравотчик</p>
+              <p class="text">Добро пожаловать на мой персональный веб-сайт</p>
+            </div>
+            <div>
+              <img
+                class="avatar avatar_secondary"
+                src="static/images/Avatar.jpg"
+              />
             </div>
           </div>
         </div>
+      </div>
 
-        <div id="About" class="tabcontent" class="About">
-          <div class="conteiner">
-            <div class="biography">
-              <div>
-                <img class="avatar" src="static/images/Avatar.jpg" />
+      <div id="About" class="tabcontent" class="About">
+        <div class="conteiner">
+          <div class="biography">
+            <div>
+              <img class="avatar" src="static/images/Avatar.jpg" />
+            </div>
+            <div class="biography_board">
+              <p class="text">
+                Здравствуйте! Меня зовут Мальцева Анастасия и я начинающий
+                веб-разроботчик. Сейчас я учусь в российском колледже. Front-end
+                я изучаю меньше года, но уже могу похвастаться кое-какими
+                успехами. Мне нравится развиваться в этой сфере. Я не собираюсь
+                заканчивать обучение веб-разработке, наоборот, хочу с каждым
+                днем повышать свой скилл.
+              </p>
+              <h1 class="title title_secondary">Связь со мной</h1>
+              <div class="contacts">
+                <a href="https://github.com/AnastasiaaMaltseva" target="_blank">
+                  <img src="static/images/github.png" alt="" />
+                </a>
+                <a href="https://t.me/Nast_yona" target="_blank">
+                  <img src="static/images/telegram.png" alt="" />
+                </a>
               </div>
-              <div class="biography_board">
-                <p class="text">
-                  Здравствуйте! Меня зовут Мальцева Анастасия и я начинающий веб-разроботчик. Сейчас я учусь в российском колледже. Front-end я изучаю меньше года, но уже могу похвастаться кое-какими успехами. Мне нравится развиваться в этой сфере. Я не собираюсь заканчивать обучение веб-разработке, наоборот, хочу с каждым днем повышать свой скилл.
+            </div>
+          </div>
+
+          <div class="skills-title">
+            <h1 class="title">Мои навыки</h1>
+          </div>
+
+          <div class="skills">
+            <div>
+              <img class="items" src="static/images/HTML.png" />
+              <p class="text">HTML</p>
+            </div>
+            <div>
+              <img class="items" src="static/images/CSS.png" />
+              <p class="text">CSS</p>
+            </div>
+            <div>
+              <img class="items" src="static/images/Js.png" />
+              <p class="text">JavaScript</p>
+            </div>
+            <div>
+              <img class="items" src="static/images/Figma.png" />
+              <p class="text">Figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Portfolio" class="tabcontent" class="Portfolio">
+        <div class="container">
+          <div class="text-portfolio">
+            <h1 class="title title_secondary">Мои последние работы</h1>
+          </div>
+          <div class="board-card">
+            <div class="card">
+              <img src="static/images/Personal website.PNG" />
+              <h1 class="title title_secondary">Персональный веб-сайт</h1>
+              <p class="text text_secondary">
+                Мой персональный веб-сайт, созданный для того, чтобы я могла
+                продемонстрировать свои работы и навыки.
+              </p>
+            </div>
+              <div class="card">
+                <img src="static/images/Kostroma.PNG" />
+                <h1 class="title title_secondary">
+                  Достопремечательности Костромы
+                </h1>
+                <p class="text text_secondary">
+                  Сайт показывает и рассказывает о достопремечательностях моего родного города - Кострома.
                 </p>
-                <h1 class="title title_secondary">Связь со мной</h1>
-                <div class="contacts">
-                  <a href="https://github.com/AnastasiaaMaltseva" target="_blank">
-                    <img src="static/images/github.png" alt="">
-                  </a>
-                  <a href="" target="_blank">
-                    <img src="static/images/telegram.png" alt="">
-                  </a>
-                </div>
               </div>
-            </div>
-  
-            <div class="skills-title">
-              <h1 class="title">Мои навыки</h1>
-            </div>
-  
-            <div class="skills">
-              <div>
-                <img class="items" src="static/images/HTML.png" />
-                <p class="text">HTML</p>
-              </div>
-              <div>
-                <img class="items" src="static/images/CSS.png" />
-                <p class="text">CSS</p>
-              </div>
-              <div>
-                <img class="items" src="static/images/Js.png" />
-                <p class="text">JavaScript</p>
-              </div>
-              <div>
-                <img class="items" src="static/images/Figma.png" />
-                <p class="text">Figma</p>
+              <div class="card">
+                <img src="static/images/Do you love me.png" />
+                <h1 class="title title_secondary"></h1>
+                <p class="text text_secondary">
+                  Такие сайты достаточно популярны сейчас. И я не стала исключением, чтобы его повторить. Здесь также задействовался Js, что помогло мне попрактиковаться. Весь код можно посмотреть у меня в профиле GitHub.
+                </p>
               </div>
             </div>
           </div>
         </div>
-
-        <div id="Portfolio" class="tabcontent" class="Portfolio">
-          <div class="container">
-            <div class="text-portfolio">
-              <h1 class="title title_secondary">Мои последние работы</h1>
-            </div>
-            <div class="board-card">
-              <div class="card">
-                <img src="static/images/Personal website.PNG">
-                <h1 class="title title_secondary">Персональный веб-сайт</h1>
-                <p class="text text_secondary">Мой персональный веб-сайт, созданный для того, чтобы я могла продемонстрировать свои работы и навыки.</p>
-              <div class="card">
-                <img src="">
-                <h1 class="title title_secondary">Personal Webside</h1>
-                <p class="text text_secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eius possimus architecto a qui dolore consectetur velit maiores delectus, debitis, laboriosam dolorem fugit.</p>
-              </div>
-              <div class="card">
-                <img src="">
-                <h1 class="title title_secondary">Personal Webside</h1>
-                <p class="text text_secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eius possimus architecto a qui dolore consectetur velit maiores delectus, debitis, laboriosam dolorem fugit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </body>
